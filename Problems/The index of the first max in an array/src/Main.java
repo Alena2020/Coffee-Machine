@@ -1,0 +1,23 @@
+import java.util.Scanner;
+import java.util.Arrays;
+
+class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int len = scanner.nextInt();
+        int[] array = new int[len];
+        for (int i = 0; i < len; i++) {
+            array[i] = scanner.nextInt();
+        }
+        int maximum = array[0];
+        int indexMaximum = 0;
+        for (int i = 0; i < array.length; i++) {
+            if (maximum < array[i]) {
+                maximum = array[i];
+                indexMaximum = i;
+            }
+        }
+        System.out.println(indexMaximum);
+
+    }
+}
