@@ -1,6 +1,5 @@
-# Coffee-Machine - yчебный проект JetBrains Academy
-### Выполнила проект: Алёна
+# Coffee-Machine -  JetBrains Academy project 
 
-## Технологии:
+## Technologies:
 #### - Java 
 
